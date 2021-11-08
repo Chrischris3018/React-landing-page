@@ -10,12 +10,14 @@ const Home = () => {
 	return (
 		<>
 			<Navbar />
-			<div className="containerRow">
+			<div className="container">
 				<Jumbotron />
-				<Cards />
-				<Cards />
-				<Cards />
-				<Cards />
+				<div className="row">
+					<Cards />
+					<Cards />
+					<Cards />
+					<Cards />
+				</div>
 			</div>
 			<Footer />
 		</>
