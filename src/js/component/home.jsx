@@ -4,12 +4,13 @@ import Jumbotron from "./Jumbotron.jsx";
 import Cards from "./Cards.jsx";
 import Footer from "./Footer.jsx";
 import "../../styles/index.scss";
+
 //create your first component
 const Home = () => {
 	return (
 		<>
 			<Navbar />
-			<div>
+			<div className="containerRow">
 				<Jumbotron />
 				<Cards />
 				<Cards />
