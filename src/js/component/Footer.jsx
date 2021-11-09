@@ -3,7 +3,7 @@ import "../../styles/index.scss";
 
 const Footer = () => {
 	return (
-		<div className="p-3 mb-2 bg-secondary text-white text-center">
+		<div className="fixed-bottom p-4 bg-secondary text-white text-center">
 			Copyright © Your Website 2018
 		</div>
 	);

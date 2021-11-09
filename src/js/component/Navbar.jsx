@@ -8,7 +8,7 @@ const Navbar = () => {
 				className="navbar-brand"
 				style={{ paddingLeft: "7rem" }}
 				href="#">
-				Bootstrap
+				Start Bootstrap
 			</a>
 			<button
 				className="navbar-toggler"
