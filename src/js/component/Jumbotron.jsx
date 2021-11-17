@@ -3,8 +3,8 @@ import "../../styles/index.scss";
 
 const Jumbotron = () => {
 	return (
-		<div className="jumbotron bg-light">
-			<h1 className="display-4">An open welcome</h1>
+		<div className="jumbotron bg-light mb-5 p-5 rounded">
+			<h1 className="display-1">A warm welcome!</h1>
 			<p className="lead">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 				eiusmod tempor incididunt ut labore et dolore magna aliqua.
