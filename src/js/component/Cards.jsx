@@ -3,7 +3,7 @@ import "../../styles/index.scss";
 
 const Cards = () => {
 	return (
-		<div className="card-deck col-3 mb-5 bb-5">
+		<div className="card-deck mb-5 bb-5">
 			<div className="card">
 				<img
 					className="card-img-top"
